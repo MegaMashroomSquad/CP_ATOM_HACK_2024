@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "medznar-hack"
+version = "0.1.0"
+description = ""
+authors = ["CrudyLame <dopeyslimeg@gmail.com>"]
+readme = "README.md"
+packages = [{include = "medznar_hack"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^24.10.0"
+jupyter = "^1.1.1"
+streamlit = "^1.40.0"
+transformers = "^4.46.2"
+torch = "^2.5.1"
+accelerate = "^1.1.1"
+jinja2 = "^3.1.0"
+python-docx = "^1.1.2"
+python-ooxml = "^0.13"
+docx2python = "^3.0.2"
+scikit-learn = "^1.5.2"
+fuzzywuzzy = "^0.18.0"
+python-levenshtein = "^0.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
